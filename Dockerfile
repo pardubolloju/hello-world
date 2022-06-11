@@ -3,5 +3,5 @@ From tomcat:8
 
 # Maintainer 
 MAINTAINER "bpardu111@gmail.com" 
-COPY target/*.war /usr/local/tomcat/webapps/docker.war
+COPY /var/lib/jenkins/workspace/Testing/webapp/target/*.war /usr/local/tomcat/webapps/docker.war
 
